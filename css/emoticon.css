@@ -1,0 +1,33 @@
+h1 {
+    color: blueviolet;
+}
+
+table.main{
+    border: 1px black;
+    float: left;
+    /* 元素居中 */
+    text-align: center; 
+    width: 50%;
+    /* color: black */
+    
+}
+
+th , td {
+    border: 1px gray solid;
+    height: 60px;
+    width: 300px;
+    /* color: gray; */
+}
+
+td {
+    background:#d2d2d2;
+    color:black;
+}
+
+.left {
+    background: #e5e5e5;
+}
+
+button {
+    width:200px;
+}

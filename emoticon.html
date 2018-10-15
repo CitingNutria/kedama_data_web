@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/emoticon.css">
+    <title>CT的颜文字list~</title>
+
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#div1").fadeToggle();
+        
+            });
+        });
+        </script>
+    
+</head>
+<body>
+
+<!-- 1. Define some markup -->
+<!-- <button class="btn" data-clipboard-text="1">Copy</button>
+<button class="btn" data-clipboard-text="2">Copy</button>
+<button class="btn" data-clipboard-text="3">Copy</button> -->
+
+<!-- 2. Include library  引用 clipboard.js文件-->
+<script src="js/clipboard.min.js"></script>
+
+<!-- 3. Instantiate clipboard by passing a string selector -->
+<script>
+var clipboard = new ClipboardJS('.btn');
+clipboard.on('success', function(e) {
+    console.log(e);
+   // window.alert("copy success")
+});
+// clipboard.on('error', function(e) {
+//     console.log(e);
+// });
+</script>
+
+
+
+
+
+
+    <table class="main" frame="void">
+        <tr>
+            <td class="left"><button class="btn button button-3d button-primary button-rounded" data-clipboard-text="_(:з」∠)_">_(:з」∠)_</button></td>
+            <td class="right"><button class="btn button button-3d button-primary button-rounded" data-clipboard-text="owo">owo</button></td>
+        </tr>
+        <tr>
+            <td class="left"><button class="btn button button-3d button-primary button-rounded" data-clipboard-text="(>_<)">(>_<)</button></td>
+            <td class="right"><button class="btn button button-3d button-primary button-rounded" data-clipboard-text="（　ﾟ Дﾟ）">（　ﾟ Дﾟ）</button></td></td>
+        </tr>
+        <tr>
+            <td class="left"><button class="btn button button-3d button-primary button-rounded" data-clipboard-text="(・_・;)">(・_・;)</button></td></td>
+            <td class="right"><button class="btn button button-3d button-primary button-rounded" data-clipboard-text="(゜゜)">(゜゜)</button></td></td>
+        </tr>
+        <tr>
+            <td class="left"><button class="btn button button-3d button-primary button-rounded" data-clipboard-text="・_・">・_・</button></td></td>
+            <td class="right"><button class="btn button button-3d button-primary button-rounded" data-clipboard-text="（￣□￣；）">（￣□￣；）</button></td>w</td>
+        </tr>
+        <tr>
+            <td class="left"><button class="btn button button-3d button-primary button-rounded" data-clipboard-text="（*´▽｀*）">（*´▽｀*）</button></td></td>
+            <td class="right"><button class="btn button button-3d button-primary button-rounded" data-clipboard-text=""></button></td></td>
+        </tr>
+        <tr>
+            <td class="left">1212</td>
+            <td class="right">1212</td>
+
+    </table>
+    <div id="div1" style="width:80px;height:80px;background-color:red;"></div>
+</body>
+</html>

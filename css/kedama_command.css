@@ -1,0 +1,22 @@
+table.main {
+    margin: auto;
+    width: 50%;
+    
+    
+}
+
+td.title {
+    width: 200px;
+    border: 0px;
+    background-color: #cffea0;
+    text-align: center;
+}
+
+td.copy_button {
+    border: 0px;
+    background-color: gray;
+}
+
+button {
+    width: 300px;
+}
